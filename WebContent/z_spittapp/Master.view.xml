@@ -1,0 +1,14 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="z_spittapp.Master" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Master Page">
+		<content>
+	       <List items="{/ProductSet}">
+		         <items>
+		           <StandardListItem title="{ProductID}" type="Navigation" 
+		           press="onItemPress"
+		           />
+		         </items>
+		      </List>
+		</content>
+	</Page>
+</core:View>
